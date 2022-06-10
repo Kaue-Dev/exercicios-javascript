@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1B1A17;
+    color: white;
+    align-items: center;
+}
+
+.nome-aluno {
+    padding-right: 4%;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+p, h1, h2, h3 {
+    text-align: center 
+}

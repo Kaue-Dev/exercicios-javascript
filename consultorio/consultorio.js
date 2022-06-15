@@ -22,6 +22,8 @@ frm.addEventListener("submit", (e) => {
 frm.btnUrgencia.addEventListener("click", () => {
     if(!frm.checkValidity()){
         alert("Informe o nome do paciente a ser atendido")
+        frm.inPaciente.focus()
+        return // Retorna ao form
     }
     const nome = frm.inPaciente.value //Obtem o nome do paciente
     pacientes.unshift(nome) //Adiciona o paciente no inicio do vetor
